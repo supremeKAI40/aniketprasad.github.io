@@ -1,0 +1,14 @@
+---
+title: "VaTEST II: Statistical Validation of 11 TESS-Detected Exoplanets Orbiting K-type Stars"
+collection: publications
+category: manuscripts
+permalink: /publication/vatest2
+excerpt: 'We perform wide search and statistical validation using TESS data, focusing on candidates around K-type Stars'
+date: 2023-05-12
+venue: 'Astronomical Journal (AJ)'
+# slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
+paperurl: 'https://arxiv.org/abs/2301.09865'
+authors: 'Priyashkumar Mistry, Kamlesh Pathak, **Aniket Prasad**, Georgios Lekkas, Surendra Bhattarai, Sarvesh Gharat, Mousam Maity, Dhruv Kumar, Karen A. Collins, Richard P. Schwarz, Christopher R. Mann, Elise Furlan, Steve B. Howell, David Ciardi, Allyson Bieryla, Elisabeth C. Matthews, Erica Gonzales, Carl Ziegler, Ian Crossfield, Steven Giacalone, Thiam-Guan Tan, Phil Evans, Krzysztof G. Helminiak,  Kevin I. Collins, Norio Narita, Akihiko Fukui, Francisco J. Pozuelos, Courtney Dressing, Abderahmane Soubkiou, Zouhair Benkhaldoun, Joshua E. Schlieder, Olga Suarez, Khalid Barkaoui, Enric Palle, Felipe Murgas, Gregor Srdoc, Maria V. Goliguzova, Ivan A. Strakhov, Crystal Gnilka, Kathryn Lester, Colin Littlefield, Nic Scott, Rachel Matson, Michael Gillon, Emmanuel Jehin, Mathilde Timmermans, Mourad Ghachoui, Lyu Abe, Philippe Bendjoya, Tristan Guillot and Amaury H.M.J. Triaud'
+---
+
+NASA’s Transiting Exoplanet Survey Satellite (TESS) is an all-sky survey mission designed to find transiting exoplanets orbiting nearby bright stars. It has identified more than 329 transiting exoplanets, and almost 6000 candidates remain unvalidated. In this manuscript, we discuss the findings from the ongoing Validation of Transiting Exoplanets using Statistical Tools (VaTEST) project, which aims to validate new exoplanets for further characterization. We validated 11 new exoplanets by examining the light curves of 24 candidates using the LATTE and TESS-Plot tools and computing the false-positive probabilities using the statistical validation tool TRICERATOPS. These include planets suitable for atmospheric characterization using transmission spectroscopy (TOI-2194b), emission spectroscopy (TOI-3082b and TOI-5704b) and for both transmission and emission spectroscopy (TOI-672b, TOI-1694b, and TOI-2443b). Our validated planets have one super-Earth (TOI-2194b) orbiting a bright (V = 8.42 mag), metal-poor ([Fe/H] = −0.3720 ± 0.1) star, and one short-period Neptune-like planet (TOI-5704) in the hot-Neptune desert. In total, we validated one super-Earth, seven sub-Neptunes, one Neptune-like, and two sub-Saturn or super-Neptune-like exoplanets. Additionally, we identify five likely planet candidates (TOI-323, TOI-1180, TOI-2200, TOI-2408, and TOI-3913), which can be further studied to establish their planetary nature.
