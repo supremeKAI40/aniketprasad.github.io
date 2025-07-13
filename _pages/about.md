@@ -1,56 +1,28 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: 
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+# Hello there!!
+I am a PhD researcher working on the **CHIME Fast Radio Burst (CHIME/FRB)** project, with a primary focus on studying compact object environments through transient radio emissions and extracting cosmology from them. My research involves investigating emission physics and propagation effects such as scattering, Faraday rotation, and plasma lensing to probe the magneto-ionic media near FRB sources. With an interest in both population studies and individual source modeling, I aim to understand extreme astrophysical environments around neutron stars and black holes that give rise to coherent radio bursts and hopefully find microlensing in FRBs too. My work also intersects with high-time-resolution radio astronomy and statistical inference applied to large-scale transient datasets. Apart from this, I will also be working on the development of CHORD pipeline which will be instrumental in enhancing the time resolution for FRB search. 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Before starting my PhD, I conducted a **spectro-temporal analysis of ultraluminous X-ray pulsars (ULXPs)** under the guidance of **Dr. Samir Mandal (IIST)** and **Dr. Aru Beri (University of Southampton)**. Using data from **NICER**, and **HXMT**, I studied luminosity-dependent pulse profiles and period variations to understand accretion column dynamics in super-Eddington regimes. This experience provided deep insights into emission mechanisms from compact objects, bridging observational X-ray timing with models of accretion physics.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Alongside transient and high-energy astrophysics, I have worked extensively on **exoplanet detection, validation, and characterisation**. At the **Indian Institute of Space Science and Technology (IIST)**, I contributed to the **Validation of Transiting Exoplanets using Statistical Tools (VaTEST)** group, where we validated TESS planet candidates near the radius valley. This included transit modeling, radial velocity analysis using **juliet**, and Bayesian validation using **TRICERATOPS**, with follow-up from **LCOGT** and **HARPS** under **TFOP** collaborations. I co-authored three papers and am currently leading a validation paper involving **MAROON-X** data on rocky planets orbiting cool dwarfs, addressing Earth-like planet occurrence around M-dwarfs while incorporating stellar noise mitigation in RV frameworks.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+I also collaborated with **Dr. David J. Armstrong (University of Warwick)** to critically evaluate the statistical thresholds used in exoplanet validation. This ongoing work explores frameworks for validation in the context of large surveys like **TESS** and future missions such as **Roman**.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+During a 2023 internship with **Dr. Vardan Adibekyan (University of Porto)**, I explored whether super-Mercuries form a distinct compositional population, gaining experience in statistical tests and clustering methods despite limited high core-fraction planet data.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+My interest in the application of machine learning to astrophysical problems began during a project at the **University of Western Australia** with **Dr. Linqing Wen**, where I developed a **Gaussian Mixture Model** to estimate gravitational wave sky positions, winning the **3-Minute Thesis** award. This background supports my interest in combining physical models with data-driven techniques—particularly in stellar activity modelling, Bayesian inference, and transient event localisation.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+These diverse experiences shape my approach to astrophysics, combining compact object physics, large-scale transient event analysis, and statistical validation frameworks to address key challenges in the era of big data in astronomy.
 
-**Markdown generator**
+Outside of research, I enjoy sharing astronomy through outreach talks and interactive sessions with curious minds. I often write poems, blending creativity with reflection, and keep active with football and table tennis.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+I also love to travel, always eager to explore new places—whether for observation trips, conferences, or the sheer joy of discovering something new.
