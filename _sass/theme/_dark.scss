@@ -51,4 +51,10 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+
+    body {
+  background: url("/images/themes/background_2.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
+}
+

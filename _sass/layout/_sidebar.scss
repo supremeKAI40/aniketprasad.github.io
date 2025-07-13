@@ -19,9 +19,17 @@
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
-    overflow-y: auto;               // Add scrollbar if the sidebar is too long
-    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
     padding-top: $masthead-height;
+
+    /* Hide scrollbar - WebKit & Firefox */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+
+    &::-webkit-scrollbar {
+      display: none; /* Safari & Chrome */
+    }
   }
 
   @include breakpoint($large) {
@@ -110,6 +118,8 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+  white-space: normal;       // ✅ Allows wrapping
+  word-break: break-word;    // ✅ Break long words
 
   @include breakpoint($large) {
     display: block;
@@ -165,6 +175,7 @@
   z-index: 10;
   position: relative;
   cursor: pointer;
+  
 
   li:last-child {
     a {
@@ -244,7 +255,9 @@
   }
 
   li {
-    white-space: nowrap;
+    // white-space: nowrap;
+    white-space: normal;       // ✅ Allows wrapping
+    word-break: break-word;    // ✅ Break long words  
   }
 
   a {
