@@ -12,12 +12,13 @@ redirect_from:
 ## Find [full CV here]({{ base_path }}/files/AniketPrasad_CV_2.pdf) 
 
 # 🎓 Education
-➤ **Ph.D. in Fast Radio Bursts (ongoing)**  
+➤ **Ph.D. in study of Fast Radio Bursts (ongoing)**  
   Laboratoire d’Astrophysique de Marseille, Aix-Marseille University, France  
+  Starting: October 2025
 
 ➤ **M.S. in Astronomy and Astrophysics**  
   Indian Institute of Space Science and Technology (IIST), Thiruvananthapuram, India  
-  *CGPA: 8.48/10.0* | Expected: June 2025
+  *CGPA: 8.86/10.0 | Completed: June 2025
 
 ➤ **B.Tech. in Engineering Physics**  
   National Institute of Technology (NIT), Agartala, India  
