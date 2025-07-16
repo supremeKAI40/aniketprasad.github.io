@@ -25,9 +25,12 @@ main:
     
   - title: "CV"
     url: /cv/
+
+  - title: "Photo Journal"
+    url: /gallery/
     
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/

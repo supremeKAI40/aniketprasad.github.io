@@ -27,16 +27,18 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.collection == 'research' and post.unlinked %}
-        {{ title }}
+      {% assign title_clean = post.title | markdownify | strip_html | strip_newlines %}
+      
+      {% if post.unlinked %}
+        {{ title_clean }}
       {% elsif post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
+        <a href="{{ post.link }}">{{ title_clean }}</a>
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
           <i class="fa fa-link" aria-hidden="true" title="permalink"></i>
           <span class="sr-only">Permalink</span>
         </a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title_clean }}</a>
       {% endif %}
     </h2>
 
