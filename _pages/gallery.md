@@ -7,49 +7,45 @@ permalink: /gallery/
 <style>
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
   margin-top: 2rem;
 }
 
 .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.gallery-item:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.03);
 }
 
 .gallery-item img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 16px;
-  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05); /* 👈 slight zoom-in */
 }
 
 .gallery-caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.6); /* dark translucent background */
-  color: #f0f0f0;
-  padding: 10px 12px;
+  padding: 8px 10px;
+  text-align: center;
   font-size: 0.95rem;
   font-style: italic;
-  text-align: center;
-  backdrop-filter: blur(6px);
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
+  color: #f0f0f0;
+  background: rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 </style>
 
+
+<p style="text-align: left; font-size: 1.15rem; color: #e0e0e0; margin-bottom: 2rem;">This page chronicles my journey through various natural landscapes and the cherished memories made along the way.</p>
 
 <div class="gallery-grid">
   {% assign sorted_gallery = site.gallery | sort: 'date' | reverse %}
